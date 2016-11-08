@@ -1,6 +1,6 @@
 {
   "name": "k8s-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kubernetes selector implementation in node",
   "main": "index.js",
   "engines": {
