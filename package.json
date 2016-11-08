@@ -1,0 +1,37 @@
+{
+  "name": "k8s-selector",
+  "version": "1.0.0",
+  "description": "Kubernetes selector implementation in node",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "scripts": {
+    "prepublish": "npm test",
+    "coveralls": "gulp coveralls",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kjvalencik/k8s-selector.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "k8s"
+  ],
+  "author": "K.J. Valencik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjvalencik/k8s-selector/issues"
+  },
+  "homepage": "https://github.com/kjvalencik/k8s-selector#README",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-eslint": "^3.0.1",
+    "gulp-istanbul": "^1.1.1",
+    "gulp-mocha": "^3.0.1"
+  }
+}
