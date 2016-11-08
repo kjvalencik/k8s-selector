@@ -21,7 +21,7 @@ rp.get({
 	uri  : "http://localhost:8080/api/v1/pods",
 	json : true,
 	qs   : {
-		matchLabels : {
+		matchLabels : stringify({
 			matchLabels : {
 				labelA : "a"
 			},
@@ -30,7 +30,7 @@ rp.get({
 				key      : "labelB",
 				values   : ["b", "B"]
 			}]
-		}
+		})
 	}
 });
 ```
