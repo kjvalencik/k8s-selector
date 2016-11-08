@@ -21,7 +21,7 @@ rp.get({
 	uri  : "http://localhost:8080/api/v1/pods",
 	json : true,
 	qs   : {
-		matchLabels : stringify({
+		labelSelector : stringify({
 			matchLabels : {
 				labelA : "a"
 			},
